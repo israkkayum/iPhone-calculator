@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>iPhone Calculator</title>
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body>
+<section class="container mx-auto h-auto lg:w-2/6 mt-20 flex items-center justify-center">
+    <div class="grid grid-cols-4 gap-4 bg-gray-800 rounded-md p-5">
+        <div id="display" class="bg-gray-600 text-white col-span-4 rounded-md h-16 w-auto text-right pt-4 p-2 font-semibold text-2xl"></div>
+        <div class="bg-gray-400 rounded-full h-16 w-16 flex items-center justify-center font-semibold text-2xl">AC</div>
+        <div class="bg-gray-400 rounded-full h-16 w-16 flex items-center justify-center font-semibold text-2xl"><sup>+</sup>/<sub>−</sub></div>
+        <div class="bg-gray-400 rounded-full h-16 w-16 flex items-center justify-center font-semibold text-2xl">%</div>
+        <div class="bg-yellow-500 text-white rounded-full h-16 w-16 flex items-center justify-center font-semibold text-3xl">÷</div>
+        <div class="bg-gray-600 text-white rounded-full h-16 w-16 flex items-center justify-center font-semibold text-2xl">7</div>
+        <div class="bg-gray-600 text-white rounded-full h-16 w-16 flex items-center justify-center font-semibold text-2xl">8</div>
+        <div class="bg-gray-600 text-white rounded-full h-16 w-16 flex items-center justify-center font-semibold text-2xl">9</div>
+        <div class="bg-yellow-500 text-white rounded-full h-16 w-16 flex items-center justify-center font-semibold text-3xl">×</div>
+        <div class="bg-gray-600 text-white rounded-full h-16 w-16 flex items-center justify-center font-semibold text-2xl">4</div>
+        <div class="bg-gray-600 text-white rounded-full h-16 w-16 flex items-center justify-center font-semibold text-2xl">5</div>
+        <div class="bg-gray-600 text-white rounded-full h-16 w-16 flex items-center justify-center font-semibold text-2xl">6</div>
+        <div id="num-minus" class="bg-yellow-500 text-white rounded-full h-16 w-16 flex items-center justify-center font-semibold text-3xl">−</div>
+        <div id="num" class="bg-gray-600 text-white rounded-full h-16 w-16 flex items-center justify-center font-semibold text-2xl">1</div>
+        <div id="num" class="bg-gray-600 text-white rounded-full h-16 w-16 flex items-center justify-center font-semibold text-2xl">2</div>
+        <div class="bg-gray-600 text-white rounded-full h-16 w-16 flex items-center justify-center font-semibold text-2xl">3</div>
+        <div class="bg-yellow-500 text-white rounded-full h-16 w-16 flex items-center justify-center font-semibold text-3xl">+</div>
+        <div class="bg-gray-600 text-white col-span-2 rounded-full h-16 w-auto flex items-center justify-center font-semibold text-2xl">0</div>
+        <div class="bg-gray-600 text-white rounded-full h-16 w-16 flex items-center justify-center font-semibold text-2xl">.</div>
+        <div class="bg-yellow-500 text-white rounded-full h-16 w-16 flex items-center justify-center font-semibold text-3xl">=</div>
+      </div>
+</section>
+<script src="calculator.js"></script>
+</body>
+</html>
